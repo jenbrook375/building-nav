@@ -37,6 +37,11 @@
     float: right;
 }
 
+.center {
+    margin: auto;
+    width: 200px;
+}
+
 .clear-left {
     clear: left;
 }
@@ -48,3 +53,4 @@
 .clear-both {
     clear: both;
 }
+
