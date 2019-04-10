@@ -1,4 +1,40 @@
-.box {
+
+/*global styles*/
+body {
+    margin: 0px;
+}
+/* nav styles*/
+.main-nav {
+    height: 75px;
+    background-color: gray;
+}
+
+.logo {
+    height: 56px;
+    width: 59px;
+    padding: 10px;
+}
+
+.nav-list {
+    float: right;
+    padding-right: 10px;
+    list-style: none;
+}
+
+li {
+    color: white;
+    float: left;
+    padding: 14px 16px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* end nav-styles */
+
+/*Below boxes were used to learn float properties*/
+/**.blue {
     height: 100px;
     width: 200px;
     border: 1px solid black;
@@ -47,4 +83,4 @@
 
 .clear-both {
     clear: both;
-}
+}**/
