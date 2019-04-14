@@ -9,6 +9,7 @@ body {
     background-color: gray;
 }
 
+hover-selector
 .main-nav:hover {
     height: 90px;
 }
@@ -53,6 +54,12 @@ li {
 /* end nav-list styles */
 
 /*Below were used to learn float properties*/
+=======
+}
+
+/* end nav-styles */
+
+/*Below boxes were used to learn float properties*/
 /**.blue {
     height: 100px;
     width: 200px;
@@ -102,4 +109,6 @@ li {
 
 .clear-both {
     clear: both;
-}    */
+}*/
+}*/
+
