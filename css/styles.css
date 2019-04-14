@@ -9,7 +9,6 @@ body {
     background-color: gray;
 }
 
-hover-selector
 .main-nav:hover {
     height: 90px;
 }
@@ -53,8 +52,7 @@ li {
 
 /* end nav-list styles */
 
-/*Below were used to learn float properties*/
-=======
+/*Below were used to learn float properties*
 }
 
 /* end nav-styles */
