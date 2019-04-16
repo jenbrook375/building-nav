@@ -9,12 +9,23 @@ body {
     background-color: gray;
 }
 
+.main-nav:hover {
+    height: 90px;
+}
+
+/* logo styles */
 .logo {
     height: 56px;
     width: 59px;
     padding: 10px;
 }
 
+.logo:hover {
+    width: 110px;
+    height: 70px;
+}
+
+/* nav list styles */
 .nav-list {
     float: right;
     padding-right: 10px;
@@ -29,6 +40,19 @@ li {
 
 .center {
     text-align: center;
+    font-size: 18px;
+}
+
+.center:hover {
+    font-size: 28px;
+    width: 80px;
+    height: 80px;
+    padding: 8px 24px;
+}
+
+/* end nav-list styles */
+
+/*Below were used to learn float properties*
 }
 
 /* end nav-styles */
@@ -83,4 +107,6 @@ li {
 
 .clear-both {
     clear: both;
-}**/
+}*/
+}*/
+
