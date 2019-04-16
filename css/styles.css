@@ -57,12 +57,13 @@ li {
 }
 
 iframe {
-    margin: 10px;
-    width: 500px;
-    height: 350px;
+    width: 98%;
+    height: 95%;
+    margin: 15px;
 }
 
 .footer {
+    margin-top: 10px;
     background-color:rgb(190, 188, 188);
 }
 
