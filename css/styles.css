@@ -48,11 +48,11 @@ li {
 }
 
 .footer {
-    background-color:gray;
+    background-color:rgb(190, 188, 188);
 }
 
 .social-media {
-    height: 50px;
+    height: 80px;
     margin-bottom: 0;
     list-style: none;
 }
@@ -61,6 +61,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
 
 
 
