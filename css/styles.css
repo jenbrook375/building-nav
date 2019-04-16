@@ -16,6 +16,7 @@ body {
 }
 
 .logo:hover {
+    width: 200px;
 }
 
 .nav-list {
@@ -23,8 +24,6 @@ body {
     padding-right: 10px;
     list-style: none;
 }
-
-
 
 li {
     color: white;
@@ -34,6 +33,11 @@ li {
 
 .center {
     text-align: center;
+}
+
+.center:hover {
+    font-size: 24px;
+    padding: 10px 20px;
 }
 
 /* end nav-styles */
@@ -50,6 +54,7 @@ li {
 .social-media {
     height: 50px;
     margin-bottom: 0;
+    list-style: none;
 }
 
 a {
