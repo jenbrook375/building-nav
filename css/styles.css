@@ -15,11 +15,16 @@ body {
     padding: 10px;
 }
 
+.logo:hover {
+}
+
 .nav-list {
     float: right;
     padding-right: 10px;
     list-style: none;
 }
+
+
 
 li {
     color: white;
@@ -32,6 +37,28 @@ li {
 }
 
 /* end nav-styles */
+
+/* content style*/
+.content {
+    height: 85vh;
+}
+
+.footer {
+    background-color:gray;
+}
+
+.social-media {
+    height: 50px;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 /*Below boxes were used to learn float properties*/
 /**.blue {
