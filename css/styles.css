@@ -56,7 +56,14 @@ li {
     height: 85vh;
 }
 
+iframe {
+    width: 98%;
+    height: 95%;
+    margin: 15px;
+}
+
 .footer {
+    margin-top: 10px;
     background-color:rgb(190, 188, 188);
 }
 
@@ -68,7 +75,6 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 
@@ -126,5 +132,5 @@ a {
 .clear-both {
     clear: both;
 }*/
-}*/
+
 
