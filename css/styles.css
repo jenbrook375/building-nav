@@ -16,7 +16,7 @@ body {
 /* logo styles */
 .logo {
     height: 56px;
-    width: 59px;
+    width: 100px;
     padding: 10px;
 }
 
@@ -53,27 +53,52 @@ li {
 
 /* content style*/
 .content {
-    height: 85vh;
-}
-
-iframe {
-    width: 98%;
-    height: 95%;
     margin: 15px;
 }
 
+/*map and video embed styles */
+iframe {
+    display: block;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+/*audio bar styles*/
+audio {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/*embedded video syles
+(not needed because both map and video
+are styled in iframe class, but would be needed if
+the video were a local file)
+.video {
+    display: block;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+end content styles*/
+
+/*footer styles*/
 .footer {
+    display: absolute;
     margin-top: 10px;
     background-color:rgb(190, 188, 188);
 }
 
+/*social media styles*/
 .social-media {
     height: 80px;
     margin-bottom: 0;
     list-style: none;
 }
 
-a {
+li {
     text-decoration: none;
 }
 
