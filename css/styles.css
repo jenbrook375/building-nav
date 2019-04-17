@@ -123,6 +123,20 @@ the video were a local file)
     background: #ccc;
     color: black;
 }
+
+span {
+    background-color: yellowgreen;
+}
+
+.family > span > span{
+    background-color: orange;
+}
+
+.second-span ~ .first-span {
+    color: red;
+}
+
+
 /*end content styles*/
 
 /*footer styles*/
@@ -132,6 +146,9 @@ the video were a local file)
     background-color:rgb(190, 188, 188);
 }
 
+ul.social-media > li {
+    padding: 20px 24px;
+}
 /*social media styles*/
 .social-media {
     height: 80px;
@@ -149,11 +166,14 @@ li {
     }
 }
 
+/* all devices with screen width 768px-1024px*/
 @media (min-width: 768px) and (max-width: 1024px) {
    .button {
        font-size: 22px;
+    }
 }
 
+/*overrides styles for devices with screen
 @media (min-width: 1024px) and (max-width: 1024px) {
     .button {
         font-size: 20px;
@@ -214,5 +234,3 @@ li {
 .clear-both {
     clear: both;
 }*/
-
-
